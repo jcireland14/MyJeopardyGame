@@ -1,0 +1,24 @@
+h1 {
+  font-family: 'Arial Black', sans serif;
+  color: red;
+  text-align: center;
+
+}
+
+.category {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Arial Black', sans serif;
+  font-size: 25px;
+  background: grey;
+  width: 15%;
+  color: black;
+  height: 40px;
+  border: 3px solid;
+}
+
+
+body{
+  text-align: center;
+  background-image: url("http://s2.quickmeme.com/img/3c/3caba622efa0909efa804940673b0d752a18987499c280fca7c8fd0ca6af58f7.jpg");
+    }
