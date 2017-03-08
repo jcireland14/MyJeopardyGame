@@ -25,7 +25,7 @@ body{
   background-image: url("http://s2.quickmeme.com/img/3c/3caba622efa0909efa804940673b0d752a18987499c280fca7c8fd0ca6af58f7.jpg");
     }
 
-#button-100, #button-200, #button-300, #button-400, #button-500{
+button {
  display:inline-block;
  text-align:center;
  height:65px;
