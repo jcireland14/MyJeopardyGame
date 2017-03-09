@@ -240,53 +240,77 @@ var questionFourD = prompt("This man was the first president of the US from the 
            }
       );
 //////// SCIENCE
-// var questionFourE = prompt("What was the name of Atlanta's NHL team?\n\n\nA) Flyers B) Panthers C) Hawks D) Thrashers");
-// if (questionFourE === "E") {
-//    alert("That Is Correct!");
-// }
-//   else {
-//    alert("Sorry that is incorrect");
-//    }
+$("#button-400E").click( function()
+          {
+var questionFourE = prompt("This is the rarest blood type in humans  \n\nA) B-positive\n\nB) AB-negative \n\nC) O-positive \n\nD) AB-positive");
+   if (questionFourE === "B"){
+       alert("That is correct! Please add 400 to your score");
+       }
+       else {
+        alert("That is incorrect. Please subtract 400 from your score");
+         }
+           }
+      );
 
 // ////////////FIVE HUNDRED QUESTIONS ///////////////////////////
 // //SPORTS MOVIES MUSIC HISTORY SCIENCE
 // ////////SPORTS
-// var questionFiveA = prompt("What was the name of Atlanta's NHL team?\n\n\nA) Flyers B) Panthers C) Hawks D) Thrashers");
-// if (questionFiveA === "D") {
-//    alert("That Is Correct!");
-// }
-//   else {
-//    alert("Sorry that is incorrect");
-//    }
+$("#button-500A").click( function()
+          {
+var questionFiveA = prompt("This is the last year that an Atlanta pro sports team won a championship title  \n\nA) What Are Championships?\n\nB) 2017 \n\nC) 1995 \n\nD) 1999");
+   if (questionFiveA === "C"){
+       alert("That is correct! Please add 500 to your score");
+       }
+       else {
+        alert("That is incorrect. Please subtract 500 from your score");
+         }
+           }
+      );
 // /////////MOVIES
-// var questionFiveB = prompt("What was the name of Atlanta's NHL team?\n\n\nA) Flyers B) Panthers C) Hawks D) Thrashers");
-// if (questionFiveB === "B") {
-//    alert("That Is Correct!");
-// }
-//   else {
-//    alert("Sorry that is incorrect");
-//    }
+$("#button-500B").click( function()
+          {
+var questionFiveB = prompt("Oh, no, it wasn't the airplanes. It was beauty killed the beast\n\nA) Godzilla\n\nB) King Kong \n\nC) Beauty and the Beast \n\nD) Airplane");
+   if (questionFiveB === "B"){
+       alert("That is correct! Please add 500 to your score");
+       }
+       else {
+        alert("That is incorrect. Please subtract 500 from your score");
+         }
+           }
+      );
 // /////////MUSIC
-// var questionFiveC = prompt("What was the name of Atlanta's NHL team?\n\n\nA) Flyers B) Panthers C) Hawks D) Thrashers");
-// if (questionFiveC=== "C") {
-//    alert("That Is Correct!");
-// }
-//   else {
-//    alert("Sorry that is incorrect");
-//    }
+$("#button-500C").click( function()
+          {
+var questionFiveC = prompt("Some will win, some will lose, some were born to sing the blues\n\nA) Ganster's Paradise\n\nB) Ridin' Dirty \n\nC) Don't Stop Believing \n\nD) Lights");
+   if (questionFiveC === "C"){
+       alert("That is correct! Please add 500 to your score");
+       }
+       else {
+        alert("That is incorrect. Please subtract 500 from your score");
+         }
+           }
+      );
 // //////HISTORY
-// var questionFiveD = prompt("What was the name of Atlanta's NHL team?\n\n\nA) Flyers B) Panthers C) Hawks D) Thrashers");
-// if (questionFiveD === "D") {
-//    alert("That Is Correct!");
-// }
-//   else {
-//    alert("Sorry that is incorrect");
-//    }
+$("#button-500D").click( function()
+          {
+var questionFiveD = prompt("Are you not enterained! Is this not why uou are here\n\nA) Alice in Wonderland\n\nB) Gladiator \n\nC) Zoolander \n\nD) The Hunger Games");
+   if (questionFiveD === "B"){
+       alert("That is correct! Please add 500 to your score");
+       }
+       else {
+        alert("That is incorrect. Please subtract 500 from your score");
+         }
+           }
+      );
 // ////// SCIENCE
-// var questionFiveE = prompt("What was the name of Atlanta's NHL team?\n\n\nA) Flyers B) Panthers C) Hawks D) Thrashers");
-// if (questionFiveE === "E") {
-//    alert("That Is Correct!");
-// }
-//   else {
-//    alert("Sorry that is incorrect");
-//    }
+$("#button-500E").click( function()
+          {
+var questionFiveE = prompt("This layer of atmosphere is between the troposphere and the mesosphere  \n\nA) Circlesphere\n\nB) Exosphere \n\nC) Stratosphere \n\nD) Thermosphere");
+   if (questionFiveE === "C"){
+       alert("That is correct! Please add 500 to your score");
+       }
+       else {
+        alert("That is incorrect. Please subtract 500 from your score");
+         }
+           }
+      );
