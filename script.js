@@ -5,7 +5,7 @@
 
 $("#button-100A").click( function()
            {
-var questionOneA = prompt("What was the name of Atlanta's NHL team?\n\n\nA) Flyers B) Panthers C) Hawks D) Thrashers");
+var questionOneA = prompt("This was the name of Atlanta's NHL team\n\nA) Flyers \n\nB) Panthers \n\nC) Hawks \n\nD) Thrashers");
    if (questionOneA === "D"){
        alert("That is correct! Please add 100 to your score");
        }
@@ -17,7 +17,7 @@ var questionOneA = prompt("What was the name of Atlanta's NHL team?\n\n\nA) Flye
 // /////////MOVIES
 $("#button-100B").click( function()
           {
-var questionOneB = prompt("The snozzberries taste like snozzberries.\n\n\nA) Willy Wonka B) Super Troopers C) Alice in Wonderland D) Avengers");
+var questionOneB = prompt("The snozzberries taste like snozzberries.\n\nA) Willy Wonka \n\nB) Super Troopers \n\nC) Alice in Wonderland \n\nD) Avengers");
    if (questionOneB === "B"){
        alert("That is correct! Please add 100 to your score");
        }
@@ -29,7 +29,7 @@ var questionOneB = prompt("The snozzberries taste like snozzberries.\n\n\nA) Wil
 // /////////MUSIC
 $("#button-100C").click( function()
           {
-var questionOneC = prompt("Rockstar lifestyle, might dont make it.\n\n\nA) Ridin' dirty B) Lemonade C) Wasted D) Wheels on the bus");
+var questionOneC = prompt("Rockstar lifestyle, might dont make it...\n\nA) Ridin' dirty \n\nB) Lemonade \n\nC) Wasted \n\nD) Wheels on the bus");
    if (questionOneC === "C"){
        alert("That is correct! Please add 100 to your score");
        }
@@ -39,56 +39,80 @@ var questionOneC = prompt("Rockstar lifestyle, might dont make it.\n\n\nA) Ridin
            }
       );
 // //////HISTORY
-// var questionOneD = prompt("What was the name of Atlanta's NHL team?\n\n\nA) Flyers B) Panthers C) Hawks D) Thrashers");
-// if (questionOneD === "D") {
-//    alert("That Is Correct!");
-// }
-//   else {
-//    alert("Sorry that is incorrect");
-//    }
-// ///////MISC
-// var questionOneE = prompt("What was the name of Atlanta's NHL team?\n\n\nA) Flyers B) Panthers C) Hawks D) Thrashers");
-// if (questionOneE === "E") {
-//    alert("That Is Correct!");
-// }
-//   else {
-//    alert("Sorry that is incorrect");
-//    }
+$("#button-100D").click( function()
+          {
+var questionOneD = prompt("This was the last US state to gain its statehood\n\nA) Hawaii \n\nB) Alaska \n\nC) West Virginia \n\nD) New Mexico");
+   if (questionOneD === "A"){
+       alert("That is correct! Please add 100 to your score");
+       }
+       else {
+        alert("That is incorrect. Please subtract 100 from your score");
+         }
+           }
+      );
+/////////MISC
+$("#button-100E").click( function()
+          {
+var questionOneE = prompt("This is the study of living organisms\n\nA) Organology \n\nB) Sociology \n\nC) Sneakerology \n\nD) Biology");
+   if (questionOneE === "D"){
+       alert("That is correct! Please add 100 to your score");
+       }
+       else {
+        alert("That is incorrect. Please subtract 100 from your score");
+         }
+           }
+      );
 
 // ////////////TWO HUNDRED QUESTIONS ///////////////////////////
 // //SPORTS MOVIES MUSIC HISTORY MISC
 // ////////SPORTS
-// var questionTwoA = prompt("What was the name of Atlanta's NHL team?\n\n\nA) Flyers B) Panthers C) Hawks D) Thrashers");
-// if (questionTwoA === "D") {
-//    alert("That Is Correct!");
-// }
-//   else {
-//    alert("Sorry that is incorrect");
-//    }
+$("#button-200A").click( function()
+          {
+var questionTwoA = prompt("This sport involves ice, brooms, and a rock\n\nA) Rockball \n\nB) Curling \n\nC) Hockey \n\nD) Figure Skating");
+   if (questionTwoA === "B"){
+       alert("That is correct! Please add 100 to your score");
+       }
+       else {
+        alert("That is incorrect. Please subtract 100 from your score");
+         }
+           }
+      );
 // /////////MOVIES
-// var questionTwoB = prompt("What was the name of Atlanta's NHL team?\n\n\nA) Flyers B) Panthers C) Hawks D) Thrashers");
-// if (questionTwoB === "B") {
-//    alert("That Is Correct!");
-// }
-//   else {
-//    alert("Sorry that is incorrect");
-//    }
+$("#button-200B").click( function()
+          {
+var questionTwoB = prompt("I'm making waffles!\n\nA) Wafflehouse \n\nB) Sharktales \n\nC) Shrek \n\nD) Finding Nemo");
+   if (questionTwoB === "C"){
+       alert("That is correct! Please add 100 to your score");
+       }
+       else {
+        alert("That is incorrect. Please subtract 100 from your score");
+         }
+           }
+      );
 // /////////MUSIC
-// var questionTwoC = prompt("What was the name of Atlanta's NHL team?\n\n\nA) Flyers B) Panthers C) Hawks D) Thrashers");
-// if (questionTwoC=== "C") {
-//    alert("That Is Correct!");
-// }
-//   else {
-//    alert("Sorry that is incorrect");
-//    }
+$("#button-200C").click( function()
+          {
+var questionTwoC = prompt("I'm goin down down baby, yo' street in a Range Rover\n\nA) Hot In Herr \n\nB) Country Grammar \n\nC) Ride Wit Me \n\nD) In Da Club");
+   if (questionTwoC === "B"){
+       alert("That is correct! Please add 100 to your score");
+       }
+       else {
+        alert("That is incorrect. Please subtract 100 from your score");
+         }
+           }
+      );
 // //////HISTORY
-// var questionTwoD = prompt("What was the name of Atlanta's NHL team?\n\n\nA) Flyers B) Panthers C) Hawks D) Thrashers");
-// if (questionTwoD === "D") {
-//    alert("That Is Correct!");
-// }
-//   else {
-//    alert("Sorry that is incorrect");
-//    }
+$("#button-200D").click( function()
+          {
+var questionTwoD = prompt("Abraham Lincoln was this number president of the United States\n\nA) 1st\n\nB) 22nd \n\nC) 31st \n\nD) 16th");
+   if (questionTwoD === "D"){
+       alert("That is correct! Please add 100 to your score");
+       }
+       else {
+        alert("That is incorrect. Please subtract 100 from your score");
+         }
+           }
+      );
 // ///////MISC
 // var questionTwoE = prompt("What was the name of Atlanta's NHL team?\n\n\nA) Flyers B) Panthers C) Hawks D) Thrashers");
 // if (questionTwoE === "E") {
