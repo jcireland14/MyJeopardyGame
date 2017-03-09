@@ -1,13 +1,16 @@
-
+.scoreboard{
+  color:green;
+}
 h1 {
  font-family: 'Candal';
-
  font-size: 45px;
   text-align: center;
   text-shadow: 0 0 5px #3399ff;
 }
  .container button:hover{
-  background-color: blue;
+  background-color:#001f4d;
+/*     animation-play-state: running; */
+
 
 }
 .category {
@@ -22,15 +25,15 @@ h1 {
   border: 3px solid;
   border-radius:25px;
   text-shadow: 1px 2px 2px white;
+
 }
-.container button:active{
-  background-color:black;
-}
+
 
 body{
   text-align: center;
   background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSsH36fAFw6ydONhnz1NauIkK4MXErCEdjCZZtz3HjRdPOeeI18eA");
   background-size: cover;
+  margin: 25px;
     }
 
 button {
@@ -42,7 +45,27 @@ button {
  background-color:grey;
  border:3px solid black;
  border-radius:25px;
-  font-size:17px;
-  font-weight: bold;
-  color:white;
+ font-size:17px;
+ font-weight: bold;
+ color:white;
+ box-shadow: 5px 2px 10px #888888;
+/*   animation: spin 1s linear infinite;
+
+  animation-play-state: paused;  */
+
+
 }
+#finalQuestion{
+  width:75%;
+  height: 50px;
+
+}
+.finalQ button:hover{
+  background-color: #990000;
+}
+
+
+/* @keyframes spin {
+  100% {transform: rotate(360deg); }
+
+} */
