@@ -30,4 +30,4 @@ After a question has been answered, that question button will be deactivated unt
 
 ## Wireframe
 
-![Wireframe](http://imgur.com/VOhMopt)
+!(Wireframe) - (http://imgur.com/VOhMopt)
