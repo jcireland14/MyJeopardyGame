@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+
 <head>
   <meta charset="UTF-8">
   <title>This Is Jeopardy</title>
@@ -7,7 +6,13 @@
 <link href='//fonts.googleapis.com/css?family=Candal' rel='stylesheet'>
 </head>
 <body>
-  <h1> This Is Jeopardy!</h1>
+  <h1 value=refresh on.click="window.location.reload()"> This Is Jeopardy!</h1>
+  <div class="scoreboard">
+  <div class="score" id="number">
+    0</div>
+  </div>
+  <button id="zero">reset</button>
+  <hr>
   <div class="container">
   <div class="category">Sports</div>
   <div class="category">Quotes</div>
@@ -57,4 +62,4 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="script.js"></script>
 </body>
-</html>
+

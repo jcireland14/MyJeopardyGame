@@ -14,7 +14,7 @@ After a question has been answered, that question button will be deactivated unt
 
   * Languages - HTML5, CSS3, Javascript, jQuery
   * Design -  Google Fonts
-  * Project Planning & User Stories - [Trello](#)
+  * Project Planning & User Stories - [Trello](https://trello.com/b/FmdcRaG9/wdi-project-one)
   * Sublime Text 3
 
 

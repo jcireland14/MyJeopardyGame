@@ -63,9 +63,30 @@ button {
 .finalQ button:hover{
   background-color: #990000;
 }
+hr{
+  background-color:black;
+  padding: 10px;
+  border-radius:25px;
+}
+.scoreboard{
+  height:100px;
+  width:150px;
+  background-color:red;
+  display:inline-block;
+  opacity:0.5;
 
-
+}
+.score{
+  color:black;
+  justify-content: center;
+  padding:40px;
+  font-size:25px;
+}
+#zero{
+  display:inline-block;
+  border:none;
+}
 /* @keyframes spin {
-  100% {transform: rotate(360deg); }
+  100% {transform: rotate(1turn); }
 
 } */
