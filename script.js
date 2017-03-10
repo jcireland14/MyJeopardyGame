@@ -387,3 +387,18 @@ var questionFiveE = prompt("This layer of atmosphere is between the troposphere 
            }
       );
 });
+//////////Final Question
+$("#finalQuestion").click( function()
+          {
+  $("#finalQuestion").click(function(){
+   $(this).prop('disabled', true);
+var questionFinal = prompt("Wager as much of your score desired\n\n\nThis is the number of bones a giraffe has in its neck  \n\nA) 37\n\nB) 7 \n\nC) 76 \n\nD) 24");
+   if (questionFinal === "B"){
+       alert("That is correct! Please add wagered amount to your score");
+       }
+       else {
+        alert("That is incorrect. Please subtract wagered amount from your score");
+         }
+           }
+      );
+});
